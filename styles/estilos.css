@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(150, 157, 163);
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+} 
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 34vw;
+}
+
+nav img {
+    max-width: 4em;
+    max-height: 5em;
+    margin: 0 0 0 37.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-peliculas{
+    background-color: rgb(168, 174, 180);
+    border: 0.2em solid white;
+    border-radius: 1em;
+    width: 93vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 2.19) 0px 10px 20px, rgba(63, 63, 63, 0.23) 0px 6px 6px;
+}
+
+.portapeliculas {
+    height: auto;
+    margin: 0em 2em 2em 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pelicula{
+    border: 0.4em solid white;
+    background-color: rgb(219, 217, 217);
+    width: 23em;
+    height: 47em;
+    margin: 0em 1em 1em 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.pelicula img {
+    margin: 1em 0em 0em 0em;
+    padding-bottom: 0.5em;
+    width: 15vw;
+    height: 20vw;
+    background-size: contain;
+}
+
+.transition {
+    transition: 0.3s ease-in-out;
+}
+
+.transition:hover{
+    transform: scale(1.03);
+}
+
+.textoPeli {
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(128, 129, 145);
+    border: 0.1em solid black;
+    width: 90%;
+    text-align: center;
+}

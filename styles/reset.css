@@ -1,0 +1,77 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Reset fonts for relevant elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Remove tap highlight on IE */
+a,
+area,
+button,
+input,
+label,
+select,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/* Reset some styling for input types */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Hide the outline on focus */
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0;
+}
